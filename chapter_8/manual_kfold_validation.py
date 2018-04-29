@@ -8,7 +8,7 @@ import numpy
 numpy.random.seed(42)
 
 # Load Pima Indians dataset
-dataset = numpy.loadtxt('pima-indians-diabetes.csv', delimiter=',')
+dataset = numpy.loadtxt('../datasets/pima-indians-diabetes.csv', delimiter=',')
 
 # Split features (first 8 columns) and labels (9th column)
 X = dataset[:, 0:8]
